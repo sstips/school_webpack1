@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shree Academi</title>
+
+    <link href="./Shree Academi 2_files/css" rel="stylesheet">
+      <link rel="stylesheet" href="./Shree Academi 2_files/styles.css">
+      <link rel="stylesheet" href="./Shree Academi 2_files/font-awesome.min.css">
+      <link rel="stylesheet" href="./Shree Academi 2_files/font-awesome.min.css">
+
+    <script>
+       function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script> 
+
+        
+        
+    <script>
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+     <!---header-->
+
+     <div class="header">
+        <div class="header-right" style="background-color: rgb(236, 220, 168);border: 5px; border-color: blue; padding: 5px; margin-right: 20px;">
+            <img src="./Shree Academi 2_files/Shri Academy Logo.png" class="logo" height="100px" width="100px">
+
+        </div>    
+        <h1>Shri Academy</h1>
+        <p>Center of Academic Excellence</p>
+    </div>
+
+<button class="tablink" onclick="openPage(&#39;Home&#39;, this, &#39;red&#39;)">Home</button>
+<button class="tablink" onclick="openPage(&#39;News&#39;, this, &#39;green&#39;)" id="defaultOpen">Gallery</button>
+<button class="tablink" onclick="openPage(&#39;Contact&#39;, this, &#39;blue&#39;)">Contact</button>
+<button class="tablink" onclick="openPage(&#39;About&#39;, this, &#39;orange&#39;)">About</button>
+<button class="tablink" onclick="openPage(&#39;Newsev&#39;, this, &#39;cyan&#39;)">News and Events</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>Gallery</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<div id="Newsev" class="tabcontent">
+    <h3>News and Events</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+<!---sidebar-->
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#">Vision</a>
+    <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#">Students</a>
+    <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#">Calender</a>
+    <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#">Academic</a>
+  </div>
+  
+  
+
+  <!---background Image-->
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Click here</button>
+    <div class="container">
+    <img src="./Shree Academi 2_files/college building.jpg" class="fa-building" alt="Sample image">
+    <div class="bottom-left">Bottom Left</div>
+    <div class="top-left"> 
+        <h2>Collapsed Sidebar</h2>
+        <p>Content...</p>
+    </div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered">Centered</div>
+  </div>
+</div>
+
+
+<!--Footer-->
+
+<!---Footer Social Media Images-->
+
+<footer id="pageFooter" style="color: rgb(40, 17, 167);">
+    <p>©Copyright 2050 Powered by <img src="./Shree Academi 2_files/Shree_Small_bc.jpg" height="25px" width="60px">
+       All rights reversed.</p>
+       
+      <!-- Add font awesome icons -->
+<div class="fa">
+<div class="row">
+    <div class="column">
+        <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#" class="fa fa-facebook" style="width:100%"></a>
+    </div>
+    <div class="column">
+        <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#" class="fa fa-twitter" style="width:100%"></a>
+    </div>
+    <div class="column">
+        <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#" class="fa fa-youtube" style="width:100%"></a>
+    </div>
+    <div class="column">
+        <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree_HTML%202/index.html#" class="fa fa-instagram" style="width:100%"></a>
+      </div>
+  </div>
+</div>
+
+
+
+</footer>
+
+
+
+
+
+</body></html>

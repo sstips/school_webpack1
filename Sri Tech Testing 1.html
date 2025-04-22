@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Tech Testing 1</title>
+
+    <link href="./Sri Tech Testing 1_files/css" rel="stylesheet">
+        <link rel="stylesheet" href="./Sri Tech Testing 1_files/styles.css">
+        <link rel="stylesheet" href="./Sri Tech Testing 1_files/font-awesome.min.css">
+      
+              
+
+</head>
+<body>
+
+    <!---header-->
+
+    <div class="header">
+        <div class="header-right" style="background-color: rgb(236, 220, 168);border: 5px; border-color: blue; padding: 5px; margin-right: 20px;">
+            <img src="./Sri Tech Testing 1_files/Shri Academy Logo.png" class="logo" height="100px" width="100px">
+
+        </div>    
+        <h1>Shri Academy</h1>
+        <p>Center of Academic Excellence</p>
+       
+       <!--big background image-->
+       <div class="bg-img">
+        <div class="container">
+        <div class="topnav">
+            
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#home"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#news"><i class="fa fa-fw fa-search"></i>News</a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#about"><i class="fa fa-fw fa-user"></i>About</a>
+        </div>
+        </div>
+
+        <!-- Load font awesome icons Sticky side bar-->
+            <link rel="stylesheet" href="./Sri Tech Testing 1_files/font-awesome.min.css">
+
+            <!-- The social media icon bar -->
+            <div class="icon-bar">
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#" class="google"><i class="fa fa-google"></i></a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="file:///H:/My%20Works/Shree/Shree_HTML%20-%201/Shree%20Testing/index.html#" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+
+
+    </div>
+        
+
+
+    </div>
+    
+      
+      
+<!---slide show images 1/3-->
+
+
+    <h2 style="text-align: center;">News and Events</h2>
+    <p style="text-align:center;">Upload your special Events photos here:</p>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade" style="display: none;">
+      <div class="numbertext">1 / 3</div>
+      <img src="./Sri Tech Testing 1_files/Slide Show 1.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade" style="display: block;">
+      <div class="numbertext">2 / 3</div>
+      <img src="./Sri Tech Testing 1_files/Slide Show 2.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade" style="display: none;">
+      <div class="numbertext">3 / 3</div>
+      <img src="./Sri Tech Testing 1_files/Slide Show 3.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot active"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+
+<footer id="pageFooter" style="color: aqua;">
+  <p>©Copyright 2050 Powered by <img src="./Sri Tech Testing 1_files/Shree_Small_bc.jpg" height="15px" width="40px">
+     All rights reversed.</p>
+</footer>
+
+    
+
+</body></html>
